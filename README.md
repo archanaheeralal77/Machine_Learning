@@ -94,3 +94,19 @@ print(y_test.shape)
 
 from sklearn.linear_model import LinearRegression
 
+lr = LinearRegression() 
+
+lr.fit(x_train, y_train)
+
+▾ LinearRegression i ? LinearRegression()
+
+print(lr.intercept_) 
+
+2.87696662231793
+
+print(lr.coef_)
+
+[0.04656457 0.17915812 0.00345046]
+
+
+
