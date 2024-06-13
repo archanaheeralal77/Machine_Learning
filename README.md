@@ -52,4 +52,11 @@ x
 <img width="232" alt="Screenshot 2024-06-13 at 4 46 42 PM" src="https://github.com/archanaheeralal77/Machine_Learning/assets/127080874/98eebfa9-2d7a-4c93-b232-8be1fa9ecad6">
 
 
+x.head()
 
+<img width="224" alt="Screenshot 2024-06-13 at 4 47 57 PM" src="https://github.com/archanaheeralal77/Machine_Learning/assets/127080874/2d1b9d3e-e9bb-4561-a7c3-e8fb8270194a">
+
+
+# extract the result/response/dependent variable into y
+
+y = data['Sales']
