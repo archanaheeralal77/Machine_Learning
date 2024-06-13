@@ -60,3 +60,37 @@ x.head()
 # extract the result/response/dependent variable into y
 
 y = data['Sales']
+
+
+y 
+
+<img width="338" alt="Screenshot 2024-06-13 at 4 48 54 PM" src="https://github.com/archanaheeralal77/Machine_Learning/assets/127080874/b3ca4bb3-56d0-41ed-a45c-2f22c47bf833">
+
+y.head()
+
+<img width="248" alt="Screenshot 2024-06-13 at 4 49 39 PM" src="https://github.com/archanaheeralal77/Machine_Learning/assets/127080874/cc33adeb-7c1c-4474-bccc-623a8d93a743">
+
+# import libraries to split data into test and train data
+
+from sklearn.model_selection import train_test_split
+
+x_train, x_test, y_train, y_test = train_test_split(x,y,random_state=1) print(x_train.shape)
+
+(150, 3)
+
+print(y_train.shape) 
+
+(150,)
+
+print(x_test.shape) 
+
+(50, 3)
+
+print(y_test.shape) 
+
+(50,)
+
+### Now perform linear regression, so to do that import libraries
+
+from sklearn.linear_model import LinearRegression
+
