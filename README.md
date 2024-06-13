@@ -36,4 +36,20 @@ import seaborn as sns
 sns.pairplot(data,x_vars=['TV','Radio','Newspaper'], y_vars='Sales')
 
 
+<img width="614" alt="Screenshot 2024-06-13 at 4 45 28 PM" src="https://github.com/archanaheeralal77/Machine_Learning/assets/127080874/609e6623-051a-41a3-ad9d-2610446dd388">
+
+# Extract the features in to x
+
+features_cols = ['TV', 'Radio', 'Newspaper']
+
+#### x = data[['TV', 'Radio', 'Newspaper']] this will have the same resuld
+# and they both mean same. so either 1 can be used in python code.
+
+x= data[features_cols]
+
+x
+
+<img width="232" alt="Screenshot 2024-06-13 at 4 46 42 PM" src="https://github.com/archanaheeralal77/Machine_Learning/assets/127080874/98eebfa9-2d7a-4c93-b232-8be1fa9ecad6">
+
+
 
